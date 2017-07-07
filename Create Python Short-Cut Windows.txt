@@ -1,0 +1,7 @@
+Rightclick on the script -> Send to Desktop
+This creates a shortcut on the desktop.
+Give the thing a nice name.
+Rightclick -> Properties.
+Change the target field: add "C:\Python26\pythonw.exe" in front of it separated by a space. Or whatever the location of pythonw.exe is on your system. To be more precise: Use pythonw.exe for .pyw files and python.exe for .py files. You can leave out the "" if there is no space character in the path name.
+Then rightclick -> Pin to taskbar.
+That should give you the proper thing in the taskbar.

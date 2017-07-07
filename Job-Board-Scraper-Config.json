@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "job-board-scraper",
+  "private_key_id": "5c7664efe05ddd96db247c8310a986d24991becd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCmRRvKhjQEH7p\n9oePdxvZLYlfccwLFWDtZQKuDti0bMKcegaxX709CqzE6O9mDmzcXXBv1LTLj7EP\nb4rnkGvggkd4g/BUbs5tRIDApWUOTbtniiaBJAfadBDXcHajTWJPLBODTgH367MJ\nHt+0rSxPbcxsYDzFC4t4iimCk8N8nuVJA8NXJW8d6EW/cLaQIuR0N395q2t3pTsO\nLIKIdVThQRQSfK0OqfLr65WWf+Jrx2HfPlLjE1IZhk4rPQc5Z1zggz7mBySpk7Px\n1GxrrxQGtAiOdBhwQEwkELPP186zl3G9Zp9IUvpan+px+L71apPLycmsrZW+2JTg\niDjd2cTZAgMBAAECggEAB/AZS/Tk+40bYDfU4nPyst05/qa0XWS123kvWXee5104\nYwxR5ueyNHc8V5vuMrThQ+vxK4lQXAK0hPNWhd5M8uTdktDu+21kW5ixF9VSAKSz\nFvolBUeO+nOZlvAuJriAC3K6KQpZkjS5zOQcLqaRvtEKcbFLSU5l62OCEKLZFTrj\nz97+3wot8ymVpRzeYRwL/61/8UKhroYrH80SuXV6XTgk0ik0vW4kl9yhovlIOGoP\n/LU+98sMX52Xrv2HZMPLUzCaTuYd5FG3l5/FUStaYCaAERhwOyh92+u4OFkKHgg7\nEzt5j3n9ls6gQgOftlcTSmSMciFNViIiIC7LsXAQAQKBgQDwSauFnRwnkAgTL1Nk\nHSuVKkfoQaQT3nwxxC+YcnH4yOLeaN/zaaAa1rXYdT34HKswgiNmVL3UVqXnD6UB\n8+QdJMXKgIYPAfU2omQq+7iDWZDpKgXY6WzpVJRqr1N265WQSMLbKq9ddjz2jKog\nHwZ1Wvxc0qJpgTJdhlNhcHg+WQKBgQDPUpQ+bPGxBIkraO5iWPEz3SLTuwm94zrA\n9fSAQGI+V7Z/Pch/TCbjozONakRKavs2dgM02fu3N8WHe58R8pkS4xKaHCy9Ul2i\n2QL/l3ri0pdrRf6HMbiacJhcp92cb0y5KO+pBSraOu76/AutlooC+fJvqNjKPGxa\nHXhE083qgQKBgQCQKiMWjySNOAUgPYyyzC2R2UQ7PObMZPfug95qgH+Q3DYBarqy\nt/SvJZMEw5LigZDUEcBbbQxXkYUIFILToRiDw8RHssS7zFjq5pNilpQlel9PBT9s\n3N/TPkOtnnNdLgsV/hGqnPmKAZ6h7dNEYljloCk5J8b5teIZ6rWsCGacQQKBgCNB\nrtYi3sM0u0L3mDp/V51zSL3q+9Af+VjhOtAoosxpTC69SgBj6eUiVt0AqlZhdREg\n5pCxVT4mLOBKZJW/xMpSdVJh4jXb8PKFpx3iG9LA72EdyRgim3sgFLkFDwnQX6LJ\nVGBQ8aWlCgkCndXKWPQCn3jfpOZXejGk+1PxFP6BAoGAZe3c0ctz/NZo/jB2cxH6\nEGR6ugJ7ZbN6NJP1gbS1OeKNI0mapnWg39Nw5y93idptR6H1CKHi7A6hGAUg8U6+\nJAidMELKri7BGcZic4C6rZVaEyw6wpyr/s/r35H/QzNPCze8WlumHLO84Vm4YEUT\nncl+aistvnkiCZ8BD1scq48=\n-----END PRIVATE KEY-----\n",
+  "client_email": "job-board-scraper@job-board-scraper.iam.gserviceaccount.com",
+  "client_id": "101216806533671067469",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/job-board-scraper%40job-board-scraper.iam.gserviceaccount.com"
+}
