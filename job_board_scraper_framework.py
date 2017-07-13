@@ -1,39 +1,12 @@
 import urllib2
 from bs4 import BeautifulSoup
-import MySQLdb
-from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.phantomjs.webdriver import WebDriver as PhantomJS
 from geopy.geocoders import Nominatim
-
-class mysqlObj():
-    def __init__(self):
-        self.db = MySQLdb.connect(host="35.190.157.173", user="root", passwd="", db="hof")
-        # localhost
-        # db = MySQLdb.connect(host="localhost", user="root", passwd="292929", db="hof")
-        self.cur = self.db.cursor()
-
-    def truncate_mysql_by_companies(self, companyNameList):
-        # clear the company record
-        for companyName in companyNameList:
-            self.cur.execute("DELETE FROM job_board WHERE Company ='" + companyName + "'")
-            self.db.commit()
-
-    def mysql_insert(self, output):
-        for job in output:
-            try:
-                command = "INSERT INTO job_board (Company, JobTitle, JobURL, Location) VALUES ('{}','{}','{}','{}')".format(
-                    job[0], job[1], job[2], job[4])
-                self.cur.execute(command)
-                self.db.commit()
-            except UnicodeEncodeError:
-                print ""
-
-    def mysql_close(self):
-        self.db.close()
 
 class scraper_builder():
     def soup_builder(self,url):
-        return  BeautifulSoup(urllib2.urlopen(url, timeout = 15), "lxml")
+        return  BeautifulSoup(urllib2.urlopen(url, timeout = 15), "html.parser")
 
     # without proxy set-up. Needs to change the exe path
     def selinum_buider(self):
@@ -42,7 +15,7 @@ class scraper_builder():
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
             "(KHTML, like Gecko) Chrome/15.0.87"
         )
-        return webdriver.PhantomJS("phantomjs/bin/phantomjs.exe", desired_capabilities=dcap)
+        return PhantomJS("phantomjs/bin/phantomjs.exe", desired_capabilities=dcap)
 
 class string_parser():
     def location_cleaner(self,location):
